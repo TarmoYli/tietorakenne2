@@ -5,12 +5,12 @@
 int main()
 {
 	Que<int, 10> intjono;
-
+	intjono.readFirst();
 	for (int i = 0; i < 10; i++)
 	{
 		intjono.append(i);
-		std::cout << intjono.readFirst() << "\n" << i << std::endl;
 	}
+	intjono.append(12);
 }
 
 

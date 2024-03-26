@@ -2,6 +2,7 @@
 #ifndef QUE
 #define QUE
 #include <array>
+#include <iostream>
 
 template<typename T, std::size_t N>
 class Que
@@ -18,6 +19,10 @@ public:
 			data[end % N] = item;
 			++end;
 		}
+		else
+		{
+			std::cout << "Jono täynnä!" << std::endl;
+		}
 	}
 
 	T readFirst()
@@ -26,6 +31,10 @@ public:
 		{
 			++start;
 			return data[(start - 1) % N];
+		}
+		else
+		{
+			std::cout << "jono tyhjä" << std::endl;
 		}
 		return T();
 	}
