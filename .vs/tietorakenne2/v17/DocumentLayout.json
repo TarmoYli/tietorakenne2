@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|solutionrelative:Que.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\tietorakenne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|solutionrelative:tietorakenne2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B518C36F-DE58-421D-8A85-826E570E4205}|tietorakenne2.vcxproj|solutionrelative:Que.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Que.h",
               "DocumentMoniker": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
               "RelativeDocumentMoniker": "Que.h",
               "ToolTip": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
               "RelativeToolTip": "Que.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-26T15:30:49.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "tietorakenne2.cpp",
               "DocumentMoniker": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\tietorakenne2.cpp",
               "RelativeDocumentMoniker": "tietorakenne2.cpp",
               "ToolTip": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\tietorakenne2.cpp",
               "RelativeToolTip": "tietorakenne2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-26T16:00:25.573Z",
               "EditorCaption": ""

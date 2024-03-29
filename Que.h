@@ -16,12 +16,12 @@ public:
 	{
 		if (!isFull())
 		{
-			data[end % N] = item;
+			data[end % N] = item;			// modulot palauttaa aina kokonaislukuja, siksi me k‰ytet‰‰n niit‰ t‰ss‰ paljon.
 			++end;
 		}
 		else
 		{
-			std::cout << "Jono t‰ynn‰!" << std::endl;
+			throw std::runtime_error("Jono T‰ynn‰!");
 		}
 	}
 
@@ -29,20 +29,20 @@ public:
 	{
 		if (!isEmpty())
 		{
-			++start;
-			return data[(start - 1) % N];
+			++start;						// kasvatetaan arvoa
+			return data[(start - 1) % N];	// mutta otetaan siit‰ yksi pois koska sit‰ ei olla viel‰ k‰sitelty
 		}
 		else
 		{
-			std::cout << "jono tyhj‰" << std::endl;
+			throw std::runtime_error("Jono Tyhj‰!");
 		}
-		return T();
+		return T();							// t‰m‰ on t‰‰ll‰ koska ilman sit‰ ei k‰‰nny
 	}
 
 	bool isFull()
 	{
-		return end - start == N;
-	}
+		return end - start >= N;			// p‰‰tet‰‰n ett‰ jos endin ja startin v‰linen erotus on suurempi kuin N niin jono on t‰ynn‰.
+	}										// vaikka t‰ss‰ versiossa jonoa ei voi koskaan throwin takia menn‰ ymp‰ri.
 
 	bool isEmpty()
 	{
