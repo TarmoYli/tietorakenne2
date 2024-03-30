@@ -1,28 +1,79 @@
 #include "Que.h"
 
 #include <iostream>
+char userChoice;
+char userInterface();
 
 int main()
 {
-	Que<int, 10> intjono;
-	intjono.readFirst();
-	for (int i = 0; i < 10; i++)
+	Que<int, 5> intjono;
+	bool isRunning = true;
+	std::cout << "jono alustettu 'Que<int, 5> intjono' " << std::endl;
+	while (isRunning)
 	{
-		intjono.append(i);
+
+		switch (userInterface())
+		{
+		case ('a'):
+			int addNum;
+			std::cout << "anna kokonaisluku " << std::endl;
+			std::cin >> addNum;
+			try
+			{
+				intjono.append(addNum);
+			}
+			catch (const std::runtime_error& e)
+			{
+				std::cout << e.what() << std::endl;
+			}
+			break;
+		case ('b'):
+			try
+			{
+				std::cout << "Luettu: " << intjono.readFirst() << std::endl;
+			}
+			catch (const std::runtime_error& e)
+			{
+				std::cout << e.what() << std::endl;
+			}
+			break;
+		case ('c'):
+			if (intjono.isEmpty())
+			{
+				std::cout << "Jono on tyhjä." << std::endl;
+				std::cin;
+			}
+			else
+			{
+				std::cout << "jono ei ole tyhjä." << std::endl;
+				std::cin;
+			}
+			break;
+		case ('d'):
+			if (intjono.isFull())
+			{
+				std::cout << "Jono on täynnä!" << std::endl;
+			}
+			else
+			{
+				std::cout << "jono ei ole täynnä." << std::endl;
+			}
+			break;
+		case ('0'):
+			isRunning = false;
+			return 0;
+			break;
+		}
 	}
-	intjono.append(12);
 }
 
-
-/*
-Tee tietorakenteena jono siten, että:
-
-jono kuvataan luokkana, jossa luokkamuuttujina ovat indeksit alku ja loppu
-data toteutetaan jono-objektissa yksinkertaisena taulukkona, joka indeksien avulla muodostaa rengasrakenteen (esimerkiksi 3-paikkaisen jonon loppu-indeksi voi saada arvot 0->1->2->0->1...)
-jonoon tallennettava tieto voi olla määriteltynä geneeriseksi (template) tai joksikin perustietotyypiksi
-metodi kirjoita() kirjoittaa uuden tiedon jonon loppuun
-metodi lue() lukee tiedon jonon alusta
-kirjoitettaessa täyteen jonoon tai luettaessa tyhjästä jonosta tulostuu virheilmoitus [ja/tai generoituu poikkeus (exception)]
-on mahdollisesti testimetodit onko_taynna() ja onko_tyhja()
-Tee myös pääohjelma, jolla voit yksinkertaista jonoa testata.
-*/
+char userInterface()
+{
+	std::cout << "a. kirjoita jonoon" << std::endl;
+	std::cout << "b. lue jonosta" << std::endl;
+	std::cout << "c. onko tyhjä?" << std::endl;
+	std::cout << "d. onko täynnä?" << std::endl;
+	std::cout << "0. lopeta" << std::endl;
+	std::cin >> userChoice;
+	return userChoice;
+}

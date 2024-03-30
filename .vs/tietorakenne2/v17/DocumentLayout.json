@@ -21,6 +21,20 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Que.h",
+              "DocumentMoniker": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
+              "RelativeDocumentMoniker": "Que.h",
+              "ToolTip": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
+              "RelativeToolTip": "Que.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-26T15:30:49.491Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -34,26 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Que.h",
-              "DocumentMoniker": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
-              "RelativeDocumentMoniker": "Que.h",
-              "ToolTip": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\Que.h",
-              "RelativeToolTip": "Que.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-26T15:30:49.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "tietorakenne2.cpp",
               "DocumentMoniker": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\tietorakenne2.cpp",
               "RelativeDocumentMoniker": "tietorakenne2.cpp",
               "ToolTip": "C:\\Users\\huhma\\Documents\\GitHub\\tietorakenne2\\tietorakenne2\\tietorakenne2.cpp",
               "RelativeToolTip": "tietorakenne2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-26T16:00:25.573Z",
               "EditorCaption": ""
