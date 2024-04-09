@@ -8,7 +8,7 @@ int main()
 {
 	Que<int, 5> intjono;
 	bool isRunning = true;
-	std::cout << "jono alustettu 'Que<int, 5> intjono' " << std::endl;
+	std::cout << "jono alustettu: 'Que<int, 5> intjono' " << std::endl;
 	while (isRunning)
 	{
 
